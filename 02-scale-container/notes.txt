@@ -1,0 +1,2 @@
+Command line to override replicas of containers:
+	docker-compose up --scale chrome=4 --scale firefox=2 -d

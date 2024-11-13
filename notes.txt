@@ -1,0 +1,6 @@
+Command line to override replicas of containers:
+	docker-compose up --scale chrome=4 --scale firefox=2 -d
+
+Can combine max sessions and scale container:
+	- Configure max_sessions in docker-compose file
+	- Using cmd: docker-compose up --scale chrome=0 --scale firefox=2 -d
